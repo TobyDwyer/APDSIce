@@ -1,3 +1,4 @@
+
 version: 2.1
 
 executors:
@@ -29,3 +30,4 @@ workflows:
   test_and_analyze:
     jobs:
       - sonar_analysis
+
